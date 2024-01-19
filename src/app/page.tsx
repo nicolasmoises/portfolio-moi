@@ -1,10 +1,11 @@
 import { Cover } from '@/components/Cover'
 import { Transition } from '@/components/Transition/Transition'
 import { Metadata } from 'next'
+import React from 'react'
 
 
 export const metadata: Metadata = {
-  title: 'Portfolio TarreDev - NextJS 13',
+  title: 'Portfolio',
   description: 'Portfolio animated ',
 }
 

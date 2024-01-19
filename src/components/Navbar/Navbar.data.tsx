@@ -2,7 +2,7 @@ import { RiHome4Line, RiAccountPinCircleLine, RiServerLine, RiBriefcase2Line, Ri
 
 export const dataNavbar = [
   {
-    name: "home",
+    name: "Inicio",
     path: "/",
     icon: <RiHome4Line size="30" />,
   },
@@ -11,19 +11,19 @@ export const dataNavbar = [
     path: "/about",
     icon: <RiAccountPinCircleLine size="30" />,
   },
+  // {
+  //   name: "services",
+  //   path: "/services",
+  //   icon: <RiServerLine size="30" />,
+  // },
   {
-    name: "services",
-    path: "/services",
-    icon: <RiServerLine size="30" />,
-  },
-  {
-    name: "work",
+    name: "Mis trabajos",
     path: "/works",
     icon: <RiBriefcase2Line size="30" />,
   },
-  {
-    name: "testimonials",
-    path: "/testimonials",
-    icon: <RiChatPollLine size="30" />,
-  },
+  // {
+  //   name: "testimonials",
+  //   path: "/testimonials",
+  //   icon: <RiChatPollLine size="30" />,
+  // },
 ];
