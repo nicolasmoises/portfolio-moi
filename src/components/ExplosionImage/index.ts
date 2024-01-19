@@ -1,1 +1,1 @@
-export * from "./ExplosionImage";
+export * from "./index";
